@@ -14,5 +14,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Скобки/ковычки
     Plug 'jiangmiao/auto-pairs'
+    " Cargo
+    Plug 'timonv/vim-cargo'
 
 call plug#end()
