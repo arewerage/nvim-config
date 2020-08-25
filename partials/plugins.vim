@@ -8,6 +8,11 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " Плагины сюда!
+    " Цветовая тема
+    Plug 'joshdick/onedark.vim'
+    " Автодополнение
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Скобки/ковычки
+    Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
