@@ -4,6 +4,9 @@
 # Установка neovim
 sudo pacman -S neovim
 
+# Удаление директории со старым конфигом neovim (если он был создан ранее)
+rm -rf ~/.config/nvim
+
 # Создание директории для конфига neovim
 mkdir ~/.config/nvim/partials -p
 
