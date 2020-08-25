@@ -8,6 +8,6 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    
+    " Плагины сюда!
 
 call plug#end()
